@@ -1,10 +1,10 @@
-package com.fengzw.minimall.gprc;
+package com.fengzw.minimall.grpcbase;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GprcApplicationTests {
+class GrpcBaseApplicationTests {
 
     @Test
     void contextLoads() {

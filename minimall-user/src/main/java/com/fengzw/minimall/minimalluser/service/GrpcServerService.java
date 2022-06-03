@@ -5,13 +5,9 @@ import com.fengzw.minimall.minimalluser.repository.UserRepository;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import javax.transaction.Transactional;
 import java.util.Optional;
 
 @GrpcService
-//@Transactional
 public class GrpcServerService extends UserServiceGrpc.UserServiceImplBase {
     private final UserRepository userRepo;
 

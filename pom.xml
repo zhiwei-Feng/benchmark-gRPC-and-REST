@@ -21,7 +21,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>minimall-user</module>
-        <module>gprc</module>
+        <module>grpc-base</module>
+        <module>demo</module>
     </modules>
     <dependencies>
         <dependency>

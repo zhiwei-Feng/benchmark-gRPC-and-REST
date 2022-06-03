@@ -7,10 +7,10 @@
         <artifactId>minimall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>gprc</artifactId>
+    <artifactId>grpc-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gprc</name>
-    <description>gprc</description>
+    <name>grpc-base</name>
+    <description>grpc-base</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -19,7 +19,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-netty-shaded</artifactId>
